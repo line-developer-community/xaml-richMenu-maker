@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>LINE Ritch Menu Definition (XAML)</Name>
-    <Description>LINE Ritch Menu Definition File (XAML)</Description>
+    <Name>LINE Rich Menu Definition (XAML)</Name>
+    <Description>LINE Rich Menu Definition File (XAML)</Description>
     <Icon>XRMMItemTemplate.ico</Icon>
     <TemplateID>1d7f238e-d58d-4bf1-bd73-9056d616a657</TemplateID>
     <ProjectType>CSharp</ProjectType>

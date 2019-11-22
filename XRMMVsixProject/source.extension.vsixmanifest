@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="XRMMVsixProject.b58c77b2-1f6c-4b31-acdc-d12231f1f8c4" Version="1.0.1" Language="en-US" Publisher="pierre3" />
-        <DisplayName>XAML Ritch Menu Maker</DisplayName>
+        <Identity Id="XRMMVsixProject.b58c77b2-1f6c-4b31-acdc-d12231f1f8c4" Version="1.0.2" Language="en-US" Publisher="pierre3" />
+        <DisplayName>XAML Rich Menu Maker</DisplayName>
         <Description xml:space="preserve">A rich menu creation tool for LINE chat bot, which designs rich menus using XAML.</Description>
         <MoreInfo>https://github.com/pierre3/XamlRichMenuMaker</MoreInfo>
         <License>LICENSE.txt</License>
-        <Tags>LINE;Chat bot;Ritch menu</Tags>
+        <Tags>LINE;Chat bot;Rich menu</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />

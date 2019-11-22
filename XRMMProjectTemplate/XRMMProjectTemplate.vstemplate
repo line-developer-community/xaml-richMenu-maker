@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <TemplateID>7f44d369-5d06-4202-a4dc-4285f6fa6358</TemplateID>
-    <Name>LINE Ritch Menu Maker</Name>
+    <Name>LINE Rich Menu Maker</Name>
     <Description>A rich menu creation tool for LINE chat bot, which designs rich menus using XAML.</Description>
     <ProjectType>CSharp</ProjectType>
     <LanguageTag>csharp</LanguageTag>
