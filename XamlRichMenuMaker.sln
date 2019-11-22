@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamlRichMenuMaker", "XamlRichMenuMaker\XamlRichMenuMaker.csproj", "{7870E684-1C50-4D20-BBC8-9295AA9D7DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRMMProjectTemplate", "XRMMProjectTemplate\XRMMProjectTemplate.csproj", "{6052B775-75AD-40D5-82E2-6B07EEAB0E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRMMItemTemplate", "XRMMItemTemplate\XRMMItemTemplate.csproj", "{04147D4D-5C45-45A5-9B4E-A5B14B7EEAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRMMVsixProject", "XRMMVsixProject\XRMMVsixProject.csproj", "{666896C6-14CD-49B9-B6BC-71D49AA779FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRMMTemplateWizard", "XRMMTemplateWizard\XRMMTemplateWizard.csproj", "{CD5A5FC8-8ACE-4914-AF89-2AD6E01DC39F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7870E684-1C50-4D20-BBC8-9295AA9D7DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7870E684-1C50-4D20-BBC8-9295AA9D7DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7870E684-1C50-4D20-BBC8-9295AA9D7DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7870E684-1C50-4D20-BBC8-9295AA9D7DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6052B775-75AD-40D5-82E2-6B07EEAB0E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6052B775-75AD-40D5-82E2-6B07EEAB0E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6052B775-75AD-40D5-82E2-6B07EEAB0E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6052B775-75AD-40D5-82E2-6B07EEAB0E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04147D4D-5C45-45A5-9B4E-A5B14B7EEAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04147D4D-5C45-45A5-9B4E-A5B14B7EEAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04147D4D-5C45-45A5-9B4E-A5B14B7EEAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04147D4D-5C45-45A5-9B4E-A5B14B7EEAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666896C6-14CD-49B9-B6BC-71D49AA779FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666896C6-14CD-49B9-B6BC-71D49AA779FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666896C6-14CD-49B9-B6BC-71D49AA779FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666896C6-14CD-49B9-B6BC-71D49AA779FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5A5FC8-8ACE-4914-AF89-2AD6E01DC39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5A5FC8-8ACE-4914-AF89-2AD6E01DC39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5A5FC8-8ACE-4914-AF89-2AD6E01DC39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5A5FC8-8ACE-4914-AF89-2AD6E01DC39F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F17EB3F3-F565-45CB-A191-E6587437ECDF}
+	EndGlobalSection
+EndGlobal
