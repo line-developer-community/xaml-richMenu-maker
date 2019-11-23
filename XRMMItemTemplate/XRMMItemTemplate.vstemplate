@@ -7,7 +7,7 @@
     <TemplateID>1d7f238e-d58d-4bf1-bd73-9056d616a657</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>RitchMenu.xaml</DefaultName>
+    <DefaultName>RichMenu.xaml</DefaultName>
   </TemplateData>
   <TemplateContent>
     <ProjectItem SubType="Designer" ItemType="Content" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">__template.xaml</ProjectItem>
