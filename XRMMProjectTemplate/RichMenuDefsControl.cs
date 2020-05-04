@@ -1,4 +1,7 @@
-﻿using Line.Messaging;
+﻿using LineDC.Messaging;
+using LineDC.Messaging.Messages;
+using LineDC.Messaging.Messages.Actions;
+using LineDC.Messaging.Messages.RichMenu;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,7 +57,7 @@ namespace XamlRichMenuMaker
                 var topLeft = areaObj.TransformToVisual(body).Transform(new Point(0, 0));
                 areas.Add(new ActionArea()
                 {
-                    Bounds = new ImagemapArea(
+                    Bounds = new ImageArea(
                         (int)topLeft.X,
                         (int)topLeft.Y,
                         (int)areaObj.RenderSize.Width,
@@ -69,7 +72,7 @@ namespace XamlRichMenuMaker
                 Name = details.Name,
                 ChatBarText = details.ChatBarText,
                 Selected = details.Selected,
-                Size = new ImagemapSize((int)body.RenderSize.Width, (int)body.RenderSize.Height),
+                Size = new ImageSize((int)body.RenderSize.Width, (int)body.RenderSize.Height),
                 Areas = areas
             };
 

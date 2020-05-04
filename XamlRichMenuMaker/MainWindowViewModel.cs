@@ -1,4 +1,6 @@
-﻿using Line.Messaging;
+﻿using LineDC.Messaging;
+using LineDC.Messaging.Exceptions;
+using LineDC.Messaging.Messages.RichMenu;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
@@ -66,7 +68,7 @@ namespace XamlRichMenuMaker
 
         public MainWindowViewModel(string channelAccessToken, string userId)
         {
-            if (_line == null) { _line = new LineMessagingClient(channelAccessToken); }
+            if (_line == null) { _line = LineMessagingClient.Create(channelAccessToken); }
             _userId = userId;
 
             Directory.CreateDirectory(OutputDirectory);
@@ -115,13 +117,14 @@ namespace XamlRichMenuMaker
             }
             else
             {
-                var stream = await _line.DownloadRichMenuImageAsync(SelectedRichMenu.RichMenuId);
+                var content = await _line.DownloadRichMenuImageAsync(SelectedRichMenu.RichMenuId);
+                var stream = await content.ReadAsStreamAsync();
                 using (var file = new FileStream(Path.Combine(OutputDirectory, SelectedRichMenu.RichMenuId + ".png"), FileMode.Create, FileAccess.Write))
                 {
+                    
                     await stream.CopyToAsync(file);
                     stream.Position = 0;
                 }
-
                 return stream;
             }
 

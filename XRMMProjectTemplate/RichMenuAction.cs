@@ -1,4 +1,5 @@
-﻿using Line.Messaging;
+﻿using LineDC.Messaging;
+using LineDC.Messaging.Messages.Actions;
 using System;
 
 namespace XamlRichMenuMaker

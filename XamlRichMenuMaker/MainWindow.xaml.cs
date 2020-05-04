@@ -1,4 +1,5 @@
-﻿using Line.Messaging;
+﻿using LineDC.Messaging;
+using LineDC.Messaging.Messages.RichMenu;
 using System.Collections.Generic;
 using System.IO;
 using System.Windows;
