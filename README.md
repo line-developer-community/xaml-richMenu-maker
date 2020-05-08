@@ -126,7 +126,7 @@ Define two button areas with Grid, add an icon image with Image control, and set
             Margin="0,150,0,0" Width="420" Height="420"/>
 <TextBlock Margin="0,0,0,0,80" VerticalAlignment="Bottom" 
                 HorizontalAlignment="Center" 
-                FontSize="80">.
+                FontSize="80">
         Hello! LINE BOT!
 </TextBlock>
 
@@ -158,7 +158,7 @@ Action for tapping an area is defined by setting the attached property RichMenuP
     <local:RichMenuProperties.Action>
         <local:RichMenuAction Type="Postback" Label="Hello!" Data="Hello!" Text="Hello! LINE BOT!" />
     </local:RichMenuProperties.Action>
-</Rectangle>.
+</Rectangle>
 ```
 
 The following four types of actions can be specified
