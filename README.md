@@ -28,7 +28,7 @@ Set up a BOT account to use the Rich Menu.
 
 ```json
 {
-    "AppSettings": { "ChannelAccessToken".
+    "AppSettings": {
         "ChannelAccessToken": "+CiR37Hw0xxxxxxxxxxxxxxxxxxxxx",
         "DebugUserId": "U28aa2xxxxxxxxxxxxxxxxxxxxx"
     }
